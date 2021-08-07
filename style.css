@@ -1,0 +1,54 @@
+.center{
+    
+    padding-top: 50px;
+}
+.buttons{
+    padding-top: 20px;
+    
+}
+.btn{
+    margin: 3px;
+}
+
+.menuitems{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+      
+}
+.item{
+    margin: 12px;
+    display: flex;
+    box-sizing: border-box;
+}
+.image{
+    margin: 10px;
+}
+img{
+    border-radius: 5px;
+}
+.paragraph{
+    width: 200px;
+    
+}
+p{
+    font-size: 10px;
+}
+p, h1{
+    color: rgb(187, 131, 59);
+
+}
+.underline{
+    background-color: chocolate;
+    width: 80px;
+    margin: auto;
+    height: 3px;
+}
+@media screen and (max-width: 560px){
+    .item{
+        display: block;
+    }
+}
